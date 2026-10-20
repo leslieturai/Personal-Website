@@ -67,7 +67,7 @@ body > main {
     z-index: 13;
     height: 500px;
     width: 400px;
-    left: 75%;
+    left: 78%;
     rotate: -10deg;
 }
 
@@ -97,3 +97,82 @@ body > main > section > h3 {
 body > main > section > h3 ~ p {
     margin-left: 5%;
 } 
+
+/* Tech Text Colours */
+
+/* Languages */
+#tech > p:nth-of-type(1) > span:nth-of-type(1) {
+    color: orange;
+}
+
+#tech > p:nth-of-type(1) > span:nth-of-type(2) {
+    color: cyan;
+}
+
+#tech > p:nth-of-type(1) > span:nth-of-type(3) {
+    color: #bf4080;
+}
+
+#tech > p:nth-of-type(1) > span:nth-of-type(4) {
+    color: #ffb326;
+}
+
+#tech > p:nth-of-type(1) > span:nth-of-type(5) {
+    color: #ffb7ff;
+}
+
+#tech > p:nth-of-type(1) > span:nth-of-type(6) {
+    color: lightskyblue
+}
+
+/* Frameworks */
+
+#tech > p:nth-of-type(1) > span:nth-of-type(7) {
+    color: #8be700;
+}
+
+#tech > p:nth-of-type(2) > span:nth-of-type(1) {
+    color: rgb(13, 166, 218)
+}
+
+#tech > p:nth-of-type(2) > span:nth-of-type(2) {
+    color: lab(63.3038% -18.433 -51.0407)
+}
+
+#tech > p:nth-of-type(2) > span:nth-of-type(3) {
+    color: #d43008;
+}
+
+#tech > p:nth-of-type(2) > span:nth-of-type(4) {
+    color: #b39aff
+}
+
+#tech > p:nth-of-type(2) > span:nth-of-type(5) {
+    color: #c7c4c4;
+}
+
+/* Tools */
+
+#tech > p:nth-of-type(3) > span:nth-of-type(1) {
+    color: rgb(204, 78, 183);
+}
+
+#tech > p:nth-of-type(3) > span:nth-of-type(2) {
+    color: rgb(59, 99, 251)
+}
+
+#tech > p:nth-of-type(3) > span:nth-of-type(3) {
+    color: #0078d4;
+}
+
+#tech > p:nth-of-type(3) > span:nth-of-type(4) {
+    color: rgb(245, 180, 58)
+}
+
+#tech > p:nth-of-type(3) > span:nth-of-type(5) {
+    color: rgb(34, 190, 34); 
+}
+
+#tech > p:nth-of-type(3) > span:nth-of-type(6) {
+    color: rgb(147, 224, 147); 
+}
