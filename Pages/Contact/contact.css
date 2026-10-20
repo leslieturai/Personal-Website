@@ -1,0 +1,112 @@
+/* Base Styles */
+
+* {
+    margin: 0;
+    padding: none;
+}
+
+body {
+    background-color: black;
+    padding: 1rem;
+    overflow-x: hidden;
+}
+
+a, p, h1, h2, h3, i {
+    color: white;
+    font-family: "Source Code Pro";
+}
+
+a {
+    text-decoration: none;
+}
+
+a, p, span {
+    font-size: 1.2rem;
+}
+
+/* Main Styles */
+
+p {
+    margin: 1% 0% 1% 0;
+}
+
+body > header > nav, body > header > nav > .nav-group, body > header > nav > .header-flex-div   {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header > nav > .nav-group {
+    flex-basis: 25%;
+}
+
+body > header > nav > .nav-group > .header-flex-div {
+    justify-content: space-between !important;
+    flex-basis: 50%;
+}
+
+body > header > nav > .nav-group > .header-flex-div > a:nth-child(1) {
+    opacity: 0;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+body > header > nav > .nav-group > .header-flex-div > a:nth-child(1):has(~a:hover) {
+    opacity: 1;
+    font-weight: bold;
+}
+
+body > main, #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+    margin: auto;
+}
+
+#contact .contact-group a {
+    font-size: 1.8rem !important;
+}
+
+#contact h2 {
+    font-size: 4rem;
+}
+
+#contact > .contact-group, p {
+    margin: 1% 0 1% 0;
+    font-size: 2rem;
+}
+
+.contact-group a:nth-of-type(1) {
+    opacity: 0;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.contact-group a:nth-of-type(1):has(~a:hover) {
+    opacity: 1;
+}
+
+/* Images */
+
+#images img:nth-of-type(1) {
+    position: absolute;
+    z-index: 13;
+    height: 500px;
+    width: 600px;
+    rotate: 5deg;
+    left: -12%;
+    top: 35%;
+}
+
+#images img:nth-of-type(2) {
+    position: absolute;
+    z-index: 13;
+    height: 600px;
+    width: 500px;
+    rotate: -2deg;
+    right: -3%;
+    top: 50%;
+}
+

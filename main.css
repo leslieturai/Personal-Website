@@ -27,6 +27,10 @@ p {
     margin: 1% 0% 1% 0;
 }
 
+a, p, span {
+    font-size: 1.2rem;
+}
+
 body > header > nav, body > header > nav > .nav-group, body > header > nav > .header-flex-div   {
     display: flex;
     flex-direction: row;
